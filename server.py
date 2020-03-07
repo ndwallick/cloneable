@@ -33,7 +33,7 @@ while True:
         print('warming up camera')
         sleep(2)
         print('capturing pic')
-        camera.capture('/home/pi/image.jpg')
+        camera.capture('image.jpg')
         print('done!')
     elif data==b'qit':
         # Quit script
